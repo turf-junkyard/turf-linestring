@@ -1,0 +1,29 @@
+{
+  "name": "turf-linestring",
+  "version": "0.1.0",
+  "description": "turf lineString module",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morganherlocker/turf-linestring.git"
+  },
+  "keywords": [
+    "linestring",
+    "line",
+    "gis",
+    "geojson",
+    "turf"
+  ],
+  "author": "morganherlocker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morganherlocker/turf-linestring/issues"
+  },
+  "homepage": "https://github.com/morganherlocker/turf-linestring",
+  "devDependencies": [
+    "tape"
+  ]
+}
