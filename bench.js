@@ -1,5 +1,5 @@
 var linestring = require('./');
-var Benchmark = require('Benchmark');
+var Benchmark = require('benchmark');
 var fs = require('fs');
 
 var suite = new Benchmark.Suite('turf-linestring');
