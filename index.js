@@ -1,11 +1,11 @@
 /**
- * Creates a {@link LineString} {@link Feature} based on a
+ * Creates a {@link LineString} feature based on a
  * coordinate array. Properties can be added optionally.
  *
  * @module turf/linestring
- * @param {number[][]} coordinates - an array of x, y positions
- * @param {Object} properties
- * @return {LineString} output
+ * @param {Array} coordinates an Array of coordinate pairs
+ * @param {Object} properties an Object consisting of key-value pairs to add as properties
+ * @return {LineString} a LineString feature
  * @example
  * var linestring1 = turf.linestring([[102.0, -10.0], [103.0, 1.0], [104.0, 0.0], [130.0, 4.0]])
  * var linestring2 = turf.linestring([[102.0, -10.0], [103.0, 1.0], [104.0, 0.0], [130.0, 4.0]],
