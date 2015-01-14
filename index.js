@@ -6,6 +6,7 @@
  * @param {number[][]} coordinates - an array of x, y positions
  * @param {Object} properties
  * @return {LineString} output
+ * @throws {Error} if no coordinates are passed
  * @example
  * var linestring1 = turf.linestring([[102.0, -10.0], [103.0, 1.0], [104.0, 0.0], [130.0, 4.0]])
  * var linestring2 = turf.linestring([[102.0, -10.0], [103.0, 1.0], [104.0, 0.0], [130.0, 4.0]],
@@ -14,8 +15,10 @@
  * console.log(linestring2)
  */
 module.exports = function(coordinates, properties){
-  if(!coordinates) return new Error('No coordinates passed')
-  return { 
+  if (!coordinates) {
+      throw new Error('No coordinates passed');
+  }
+  return {
     "type": "Feature",
     "geometry": {
       "type": "LineString",
@@ -23,4 +26,4 @@ module.exports = function(coordinates, properties){
     },
     "properties": properties || {}
   };
-}
+};
