@@ -3,7 +3,7 @@
  * coordinate array. Properties can be added optionally.
  *
  * @module turf/linestring
- * @param {number[][]} coordinates - an array of Positions
+ * @param {Array<Array<Number>>} coordinates - an array of Positions
  * @param {Object} properties an Object consisting of key-value pairs to add as properties
  * @return {LineString} a LineString feature
  * @throws {Error} if no coordinates are passed
