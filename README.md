@@ -13,10 +13,10 @@ coordinate array. Properties can be added optionally.
 
 ### Parameters
 
-| parameter     | type                   | description                                                  |
-| ------------- | ---------------------- | ------------------------------------------------------------ |
-| `coordinates` | Array.<Array.<Number>> | - an array of Positions                                      |
-| `properties`  | Object                 | an Object consisting of key-value pairs to add as properties |
+| parameter     | type                   | description                                                   |
+| ------------- | ---------------------- | ------------------------------------------------------------- |
+| `coordinates` | Array.<Array.<Number>> | an array of Positions                                         |
+| `properties`  | Object                 | _optional:_ an Object of key-value pairs to add as properties |
 
 
 ### Example
@@ -40,6 +40,9 @@ var linestring2 = turf.linestring([
 //=linestring2
 ```
 
+
+**Returns** `LineString`, a LineString feature
+
 ## Installation
 
 Requires [nodejs](http://nodejs.org/).
@@ -53,4 +56,5 @@ $ npm install turf-linestring
 ```sh
 $ npm test
 ```
+
 

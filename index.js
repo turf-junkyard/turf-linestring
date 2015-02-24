@@ -5,8 +5,8 @@
  * @module turf/linestring
  * @category helper
  * @param {Array<Array<Number>>} coordinates an array of Positions
- * @param {Object} properties an Object of key-value pairs to add as properties
- * @return {LineString} a LineString feature
+ * @param {Object=} properties an Object of key-value pairs to add as properties
+ * @returns {LineString} a LineString feature
  * @throws {Error} if no coordinates are passed
  * @example
  * var linestring1 = turf.linestring([
