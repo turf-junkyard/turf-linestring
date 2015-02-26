@@ -7,16 +7,16 @@ turf lineString module
 
 ### `turf.linestring(coordinates, properties)`
 
-Creates a LineString Feature based on a
+Creates a LineString based on a
 coordinate array. Properties can be added optionally.
 
 
 ### Parameters
 
-| parameter     | type                   | description                                                   |
-| ------------- | ---------------------- | ------------------------------------------------------------- |
-| `coordinates` | Array.<Array.<Number>> | an array of Positions                                         |
-| `properties`  | Object                 | _optional:_ an Object of key-value pairs to add as properties |
+| parameter     | type                         | description                                                   |
+| ------------- | ---------------------------- | ------------------------------------------------------------- |
+| `coordinates` | Array\.\<Array\.\<Number\>\> | an array of Positions                                         |
+| `properties`  | Object                       | _optional:_ an Object of key-value pairs to add as properties |
 
 
 ### Example
@@ -41,7 +41,7 @@ var linestring2 = turf.linestring([
 ```
 
 
-**Returns** `LineString`, a LineString feature
+**Returns** `Feature.<LineString>`, a LineString feature
 
 ## Installation
 
