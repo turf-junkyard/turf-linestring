@@ -26,7 +26,7 @@
  *
  * //=linestring2
  */
-module.exports = function(coordinates, properties){
+module.exports = function(coordinates, properties) {
   if (!coordinates) {
       throw new Error('No coordinates passed');
   }
